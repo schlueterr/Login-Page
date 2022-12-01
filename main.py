@@ -7,6 +7,10 @@ VALID_CREDENTIALS = [
     {
         'username': "John",
         'password': "Doe"
+    },
+    {
+        'username': "Login User",
+        'password': "Password User"
     }
 ]
 
