@@ -1,7 +1,14 @@
-VALID_USERNAME = "Richard"
-VALID_PASSWORD = "Testing123"
 
-VALID_CREDENTIALS = []
+VALID_CREDENTIALS = [
+    {
+        'username': 'LoginAdmin',
+        'password': 'PasswordAdmin'
+    },
+    {
+        'username': "John",
+        'password': "Doe"
+    }
+]
 
 # Function checks if the username and password are correct given user input
 def correctCredentialChecker(userName, password):
