@@ -1,19 +1,8 @@
-import hashlib
+import hashlib # To hash passwords using SHA 256
+import json  #To load and store json files
 
-VALID_CREDENTIALS = [
-    {
-        "username": "AdminLogin",
-        "hashed_password": "45961da9ce13da68788eac0836edf79c1a0b510746b26bb471acf8c53a9dd63e"
-    },
-    {
-        "username": "John",
-        "hashed_password": "fd53ef835b15485572a6e82cf470dcb41fd218ae5751ab7531c956a2a6bcd3c7"
-    },
-    {
-        "username": "Login User",
-        "hashed_password": "23222a183eb9bd50d057a8a999556f70e5b359279b8bafe813f2dce6d45fd12b"
-    }
-]
+# Loads the json file containing the credentials, stores it in the VALID_CREDENTIALS variable
+VALID_CREDENTIALS = json.load(open("config.json"))
 
 # Function checks if the username and password are correct given user input
 def correctCredentialChecker(userName, password):
