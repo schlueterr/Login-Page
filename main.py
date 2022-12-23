@@ -1,8 +1,8 @@
 import hashlib # To hash passwords using SHA 256
-# import json  #To load and store json files
 import sqlite3
 
 # Loads the json file containing the credentials, stores it in the VALID_CREDENTIALS variable
+# Need to import json library to use this. This was used pre-database implementation.
 # VALID_CREDENTIALS = json.load(open("config.json"))
 
 DATABASE_NAME = "LPDB1.db"
