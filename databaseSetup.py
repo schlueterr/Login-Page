@@ -6,7 +6,7 @@ DATABASE_NAME = "LPDB1.db"
 if __name__ == "__main__":
     if os.path.isfile(DATABASE_NAME):
         while True:
-            answer = input("Database already exists. Do you want to overwrite it? (y/n): % DATABASE_NAME")
+            answer = input("Database already exists. Do you want to overwrite it? (y/n): ")
             
             if answer == "y":
                 print("Deleting database and recreating it.")
