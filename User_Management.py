@@ -1,3 +1,8 @@
+# Author: Braden Schlueter 
+# Date: 1/2/2023
+# This program will allow the user to create a new account and add it to the database
+# Passwords should be typed as plain text and the program will hash it using SHA 256
+
 import hashlib # To hash passwords using SHA 256
 import sqlite3 # To use SQLite database
 

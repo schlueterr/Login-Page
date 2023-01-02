@@ -1,3 +1,7 @@
+# Author: Braden Schlueter
+# Date: 1/2/2023
+# This is the main login system for the program. It will ask for a username and password and check if they are correct. 
+
 import hashlib # To hash passwords using SHA 256
 import sqlite3
 

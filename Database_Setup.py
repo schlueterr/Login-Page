@@ -1,3 +1,8 @@
+# Author: Braden Schlueter
+# Date: 1/2/2023
+# This file is the database setup file. It requires user input to determiine if the user wants to overwrite the current database if applicable.
+# This does not need to be run every time the program is ran. It is only needed when the database is first created or if the database is deleted.
+
 import os
 import sqlite3
 
